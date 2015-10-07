@@ -1,0 +1,231 @@
+
+/* GENERAL */
+
+header {
+  margin: -20px -10px -20px -10px;
+  padding-top: 5px;
+  padding-left: 5px;
+  border-width: 0 0 3px 0;
+  border-style: solid;
+  background-color: #640728;
+  border-color: #420017;
+}
+
+body {
+  background-color: #DDC5CE;
+}
+
+#logo {
+  display: inline-block;
+  padding-left: 10px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+  margin: 100px 50px 0px 0px;
+  padding: 1px;
+  padding-top: 3px;
+  background-color: #420017;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: -15px;
+  margin-left: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 11px;
+  margin-left: 20px;
+  font-weight: normal;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h3 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+footer {
+  text-align: center;
+  opacity: 0.5;
+  clear: both;
+  font-family: 'Raleway', sans-serif;
+  font-size: .75em;
+}
+
+div h2 {
+  margin-bottom: -5px;
+  margin-left:auto;
+  font-weight: bold;
+}
+
+
+/* LINKS */
+
+header a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+div a {
+  text-decoration:
+}
+
+a:link {
+  color: #640728;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #640728;
+  font-weight: bold;
+}
+
+nav a:link {
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.25em;
+  margin: -2px;
+  padding: 3px 7px;
+  font-weight: bold;
+  border-width: thin;
+  border-style: solid;
+
+}
+
+nav a {
+    border-color: #1B0009;
+}
+
+
+header a:visited {
+  color: white;
+  margin: 0;
+}
+
+nav a:hover {
+  background-color: #8C3654;
+  padding: 3px 7px;
+}
+
+footer a:visited {
+  color: black;
+}
+
+
+
+/* INTERPAGE CLASSES*/
+
+.blurb {
+  margin: 30px 0 0 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.15em;
+  float: left;
+  width: 95%;
+}
+
+.icon {
+  width: 30px;
+  padding: 3px;
+  margin: 20px 2px 2px 2px;
+}
+
+.item {
+  margin: 15px 0 0 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.15em;
+  float: left;
+  width: 90%;
+}
+
+.itempic {
+  float: left;
+  width: 25%;
+  margin-right: 20px;
+  border-radius: 10%;
+}
+
+
+/***** SPECIFIC PAGES *****/
+
+/* INDEX */
+
+#pfpic {
+  border-radius: 100%;
+  border-width: thin;
+  border-style: solid;
+  border-color: #320012;
+  width: 25%;
+  display: inline-block;
+  float:left;
+  margin: 50px 0 0 30px;
+}
+
+.main {
+  margin: 50px 0 0 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.15em;
+  float: left;
+  width: 60%;
+  display:inline-block;
+}
+
+
+/*CONTACT*/
+
+#contactleft {
+  margin: 30px 50px 0 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.15em;
+  float: left;
+  width: 60%;
+  display: inline-block;
+}
+
+#contactright {
+  margin: 90px 0 0 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.15em;
+  float: right;
+  width: 30%;
+  display: inline-block;
+  clear: right;
+}
+
+.contactinfo {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactinfo a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contactinfo li.email a {
+  background-image: url('img/mail.svg')
+}
+
+.contactinfo li.phone a {
+  background-image: url('img/old-phone.svg')
+}
+
+.contactinfo li.twitter a {
+  background-image: url('img/twitter.svg')
+}
+
+.contactinfo li.github a {
+  background-image: url('img/github.svg')
+}
